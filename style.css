@@ -33,7 +33,7 @@ body {
     justify-content: space-between;
     position: absolute;
     right: 9%;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .navlink a{
@@ -68,7 +68,7 @@ body {
 
 .text-hero p:nth-last-child(3){
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 100;   
     line-height: normal;
 }
 
@@ -87,18 +87,18 @@ body {
 
 .btn-here:hover{
     color: wheat;
-    background-color: black;
+    background-color: #2f3640;
     /* border-radius: 10px; */
 }
 
 .btn-download{
-    background-color:transparent;
+    background-color:#2f3640;
     width: 100px;
     height: 30px;
     border-radius: 10px;
     border: none;
     font-size: 10px;
-    color: black;
+    color: white;
     text-align: center;
     /* position: absolute; */
     cursor: pointer;
@@ -108,7 +108,7 @@ body {
 }
 
 .btn-download:hover{
-    background-color: black;
+    background-color: #2f3640;
     color: wheat;
 }
 
@@ -119,3 +119,75 @@ body {
     height: 450px;
 }
 
+.about {
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+
+.about img{
+    height: 250px;
+    margin: 30px;
+}
+
+.text-about p:first-child{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3){
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-about-here{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0,5s ;
+}
+
+.btn-about-here:hover{
+    color: wheat;
+    background-color: #2f3640;
+    /* border-radius: 10px; */
+}
+
+.btn-about-CV{
+    background-color:#2f3640;
+    width: 100px;
+    height: 30px;
+    /* border-radius: 2px; */
+    border: none;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    /* position: absolute; */
+    cursor: pointer;
+    /* overflow: hidden; */
+    border: 1px solid black;
+    transition: 0,5s;
+}
+
+.btn-about-CV:hover{
+    background-color: #2f3640;
+    color: wheat;
+}
